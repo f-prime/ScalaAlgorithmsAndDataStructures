@@ -2,3 +2,4 @@ Implemented
 ==
 
 - LinkedLists
+- ArrayList
