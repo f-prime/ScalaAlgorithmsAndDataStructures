@@ -3,6 +3,7 @@ Implemented
 
 - LinkedLists
 - ArrayList
+- Binary Tree
 
 Not Implemented
 ==
@@ -10,5 +11,3 @@ Not Implemented
 - Stack
 - Heap
 - Queue
-- Binary Tree
-- Tree
