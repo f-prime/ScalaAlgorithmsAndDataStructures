@@ -2,8 +2,36 @@
 
 object Main {
   def main(args: Array[String]) {
-    testLinkedList()
-    testArrayList();
+    //testLinkedList()
+    //testArrayList()
+    //testBinaryTree()
+    testBinarySearchTree()
+  }
+  
+  def testBinarySearchTree() = {
+     var bst = new BinarySearchTree(10)
+     bst.add(5)
+     bst.add(4)
+     bst.add(4)
+     bst.add(11)
+     bst.find(113)
+     var i = 0;
+     for(i <- 0 to 1000) {
+       val num = scala.util.Random.nextInt(101)
+       //println(num)
+       bst.add(num)
+     }
+     bst.find(100)
+  }
+  
+  def testBinaryTree() = {
+    var bt = new BinaryTree(5)
+    bt.add(5);
+    bt.add(5)
+    bt.add(5)
+    bt.add(5)
+    bt.add(5)
+    bt.add(5)
   }
   
   def testLinkedList() = {
