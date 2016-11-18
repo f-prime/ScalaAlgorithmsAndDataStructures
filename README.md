@@ -4,10 +4,11 @@ Implemented
 - LinkedLists
 - ArrayList
 - Binary Tree
+- Queue
 
 Not Implemented
 ==
 
 - Stack
 - Heap
-- Queue
+- Priority Queue

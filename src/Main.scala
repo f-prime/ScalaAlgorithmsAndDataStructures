@@ -5,7 +5,16 @@ object Main {
     //testLinkedList()
     //testArrayList()
     //testBinaryTree()
-    testBinarySearchTree()
+    //testBinarySearchTree()
+    testQueue()
+  }
+  
+  def testQueue() {
+    var queue = new Queue(5)
+    println(queue.data)
+    queue.enqueue(6)
+    queue = queue.dequeue()
+    println(queue.front())
   }
   
   def testBinarySearchTree() = {
